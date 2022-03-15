@@ -1,0 +1,111 @@
+.footer{
+    section{
+    background-color: rgb(33,33,53);
+    padding-bottom: 2rem;
+    }
+    .footer-article{
+        display: flex;
+        padding-top: 5rem;
+        justify-content: space-between;
+        article{
+            h2{
+                font-size: 2rem;
+                font-weight: 600;
+                color: rgb(234, 235, 236);
+                margin: 1rem 0;
+            }
+            p{
+            color: rgb(234, 235, 236);
+            line-height: 1.4;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        
+            }
+            nav{
+             .ul{
+                 display: flex;
+                 gap: 0.3rem;
+             }
+                a{
+                    padding-right: .6rem;
+                    color: white;
+                    i{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    
+
+    }
+}
+.footer-arti-nav{
+    
+    h3{
+        font-size: 1.4rem;
+        margin: 1rem 0;
+        color: white;
+        font-weight: 500;
+    }
+    nav{
+        li{
+            padding: .5rem 0;
+            a{
+                font-size: 1.2rem;
+                font-weight: 500;
+            
+            }
+        }
+        li:hover{
+            margin: 0 1rem;
+            color: grey;
+        }
+    }
+}
+.footer-news{
+    h3{
+        font-size: 1.3rem;
+        margin: 1rem 0;
+        color: white;
+        font-weight: 500;
+    }
+    hr{
+        margin: 2rem 0;
+    }
+    span{
+        color: white;
+    }
+}
+.footer-Newsletters{
+    // padding: 0 2rem;
+    h3{
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        color: white;
+        font-weight: 500;
+    }
+}
+.small-footer{
+    background-color: rgb(26,26,42);
+    // height: 30px;
+    // margin-top: 7.3rem;
+    padding: 2rem 0;
+    .small-footer-article{
+        display: flex;
+        justify-content: space-between;
+        small{
+            font-size: 1.2rem;
+            color: white;
+            span{
+                color: blue;
+            }
+        }
+        p{
+            color: white;
+            text-transform: capitalize;
+            word-spacing: 15px;
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.team-hero-section{
+    // height: 60vh;
+    background: linear-gradient(rgba(102, 130, 207, 0.797), rgba(102, 130, 207, 0.797)),url(../team/team-banner.jpg),50% 50%,no-repeat;
+    background-size:cover;
+  }
+  .team-hero-article{
+    display: grid;
+    place-content: center center;
+    height: 70vh;
+    h2{
+      font-size: 2.1rem;
+      font-weight: 600;
+      color: white;
+      margin: 1rem 0;
+    }
+}

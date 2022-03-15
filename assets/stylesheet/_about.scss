@@ -1,0 +1,37 @@
+.about-hero-section{
+  background: linear-gradient(rgba(102, 130, 207, 0.797), rgba(102, 130, 207, 0.797)),url(../about/about-banner.jpg),50% 50%,no-repeat;
+  background-size:cover;
+}
+
+.about-hero-article{
+  display: grid;
+  place-content: center center;
+  height: 60vh;
+  h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: white;
+    margin: 1rem 0;
+  }
+  h5{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+  }
+}
+
+// history section
+
+.history-section{
+  margin: 3rem;
+ 
+  .history-article{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+}
+
+
+// about responsive page

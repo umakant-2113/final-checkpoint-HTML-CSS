@@ -1,0 +1,47 @@
+.contect-hero-section{
+ 
+    background: linear-gradient(rgba(102, 130, 207, 0.797), rgba(102, 130, 207, 0.797)),url(../banner/banner1.jpg),50% 50%,no-repeat;
+    background-size:cover;
+  }
+  .contect-hero-article{
+    display: grid;
+    place-content: center center;
+    height: 60vh;
+    h2{
+      font-size: 2.1rem;
+      font-weight: 600;
+      color: white;
+      margin: 1rem 0;
+    }
+}
+
+.contec-arti{
+    display: grid;
+    text-align: center;
+    h2{
+        font-size: 2.1rem;
+        padding: 2rem 0;
+        color: white;
+        font-weight: 500;
+    }
+    p{
+        width: 80%;
+        margin: 0 auto 2rem auto;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: white;
+    }
+}
+.nav-animt{
+  i{
+      transition-property: all;
+      transition-timing-function: ease-in-out;
+      transition-duration: 2s;
+  }
+
+  i:hover{
+      transform: rotate(1800deg);
+      margin: 0 1rem;
+  }
+ 
+}

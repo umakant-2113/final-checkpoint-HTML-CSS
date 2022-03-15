@@ -1,0 +1,206 @@
+@media screen and(max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+    .sm-container{
+        padding: 0 2rem;
+    }
+  .header{
+    .hamburg-container{
+        display: inline-block;
+        z-index: 100000;
+        i{
+            color: red;
+            font-size: 3rem;
+        }
+    }
+    .navigation-container{
+        position: relative;
+    }
+    .menus-container {
+        display: none;
+        position: absolute;
+        top: 100%;
+        height: 100vh;
+        left: 0;
+        right: 0;
+        background-color: rgba(132, 134, 139, 0.7);
+        z-index: 10000;
+        .nav-bar{
+            flex-flow: column wrap;
+        
+            li{
+                margin: 3rem 0 ;
+                width: 100%;
+                text-align: center;
+                a{
+                    display: inline-block;
+                    font-size: 2rem;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .show-navigation{
+        display:block;
+        z-index: 1000000;
+    }
+  
+  } 
+  .sm-wrap{
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px soli green;
+  }
+  
+  .sm-flex-100{
+    flex: 0 1 100%;
+  }
+  .sm-margin{
+    margin: 2rem 0;
+  }
+  .sm-counter2{
+    height: 60vh;
+    padding: 1rem 0 3rem 0;
+  
+  }    
+  .sm-justify-center{
+    justify-content: center;
+  }   
+  .sm-text-align{
+    text-align: center;
+  }
+  .sm-flex{
+    display: flex;
+  
+  }
+  .sm-column{
+    flex-direction: column;
+  }
+  .sm-grid{
+    display: grid;
+  }
+  .sm-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sm-grid-column{
+    grid-template-columns: 1fr;
+  }
+  .sm-grid-row{
+    grid-template-rows: 100% 100%;
+  }
+  .sm-img1{
+    margin: 0 0 1rem 0;
+    height: 100px;
+  }
+  .sm-hero{
+    height: 90vh;
+    .sm-button{
+        margin-bottom: 1rem;
+    }
+  }
+  .sm-hero-p{
+    text-align: left;
+  }
+  .sm-full-width{
+    width: 100%;
+    // height: 200px;
+  }
+  .sm-flex-50{
+    flex: 0 1 50%;
+  }
+  .sm-flex--25{
+    flex: 0 1 25%;
+  }
+  .sm-flex-45{
+    flex: 0 1 45%;
+    border: 1px solid red;
+  }
+  .sm-margin1{
+    margin: 1rem 0;
+  }
+  .sm-align-center{
+    align-items: center;
+  }
+  .sm.grid-center{
+    display: grid;
+    place-content: center center;
+  
+  }
+  .sm-m-center{
+    margin: 0 auto;
+  }
+  .sm-grid-45{
+    display: gird;
+    grid-template-columns: 45% 45%;
+    border: 2px solid red;
+    grid-auto-rows: 100px 100px;
+    gap: 1rem;
+  }
+  
+  .sm-scroll{
+    overflow: scroll;
+    .div{
+        padding: 0 2rem;
+    }
+  }
+  .sm-scroll::-webkit-scrollbar{
+   display: none;
+  }
+  .sm-form{
+  .sm-input{
+  width: 98%;
+  }
+  .sm-submit{
+  text-align: left;
+  }
+  }
+  
+  .sm-project{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  div{
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-right: 19.5rem;
+  }
+  }
+  
+  .sm-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  align-content: flex-start;
+  
+  }
+  
+  .sm-footer-m{
+  p{
+    margin: 1rem 0;
+  }
+  }
+  .sm-blog-image-box{
+//   width: 90%;
+//   margin: 0 .4rem;
+  .sm-blog{
+    display: flex;
+    flex-direction: column;
+
+    .sm-blog-box{
+        width: 90%;
+        padding: 0 .3rem;
+    }
+    .sm-blog-box:hover{
+padding: 0 .3rem;
+margin: 0 .3rem;
+    }
+ 
+  }
+
+  }
+  
+  }
